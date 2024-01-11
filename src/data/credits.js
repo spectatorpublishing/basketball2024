@@ -1,13 +1,13 @@
 export const credits = {
   "Corporate Board": [
-          { staff_name: "Irie Sentner", title: "Editor-in-Chief" },
-          { staff_name: "Andrew Park", title: "Managing Editor" },
-          { staff_name: "Tyler Shern", title: "Publisher" }
+          { staff_name: "Isabella Ramírez", title: "Editor-in-Chief" },
+          { staff_name: "Esha Karam", title: "Managing Editor" },
+          { staff_name: "Katie Zhang", title: "Publisher" }
   ],
   "Engineering": [
       {
-        "staff_name": "Maya Srikanth",
-        "title": "Engineering Manager"
+        "staff_name": "Darien Moment",
+        "title": "Head of Engineering"
       }
     ],
     "Photo": [
@@ -35,8 +35,8 @@ export const credits = {
     ],
   "Product":[
     {
-      "staff_name": "Muchen Guo",
-      "title": "Head of Product"
+      "staff_name": "Ethan Xu",
+      "title": "Product Manager"
     }
   ],
  

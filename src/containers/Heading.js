@@ -13,7 +13,7 @@ const CoverWrapper = styled.div`
     background-position: top;
     width:100%;
     height: 110vh;
-
+    
     @media (max-width: 500px) {
         width:100%;
         height: 110vh;
@@ -21,6 +21,7 @@ const CoverWrapper = styled.div`
 
     @media (max-width: 768px) {
         height:35vh;
+        position: relative;
     }
     `;
 
@@ -32,6 +33,25 @@ const NavWrap = styled.div`
     }
 `;
 
+const Title = styled.div`
+    font-family: 'Faster One', system-ui;
+    color: white;
+    font-size: 9em;
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+
+    @media (max-width: 500px) {
+        font-size: 4em;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 3em;
+    }
+    `;
+
+
 const Heading = ({ section, setSection }) => {
     return (
         <div>
@@ -40,6 +60,7 @@ const Heading = ({ section, setSection }) => {
                 <NavWrap>
                     <VerticalNav color="white" current={section} setSection={setSection} />
                 </NavWrap>
+                <Title>Basketball Title Edition</Title>
             </CoverWrapper>
         </div>
     );

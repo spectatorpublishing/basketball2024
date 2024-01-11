@@ -13,18 +13,16 @@ const LetterWrap = styled.div`
 `;
 
 const Title = styled.div`
-    font-style: regular;
-    font-weight: 900;
-    font-size: 6em;
+    font-weight: bold;
+    font-size: 5em;
     letter-spacing: 0.05em;
-    font-family: 'Baumans' ;
+    font-family: 'Graduate', serif;
     color:#F69D4D;
     padding:1vh 0 1vh 0;
     word-wrap:break-word;
 
     @media (max-width: 768px) {
         font-size: 2em;
-        -webkit-text-stroke: 1px #DDFFB2;
     }
 
 `;
@@ -34,7 +32,7 @@ const Body = styled.div`
     color: white;
     word-wrap:break-word;
     width:100%;
-
+    font-family: 'Barlow', sans-serif;
     @media (max-width: 768px) {
         font-size: 1em;
     }
