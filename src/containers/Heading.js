@@ -8,7 +8,7 @@ import MobileNav from '../components/MobileNav';
 
 
 const CoverWrapper = styled.div`
-    background: url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YKGO7B5NYFDNVGUR5MMTCICTTA.jpeg);
+    background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CBMHUPQ56ZGDXDVOJIRGAUBMWQ.jpg) #6B6BA2;
     background-size: cover;
     background-position: top;
     width:100%;
@@ -37,7 +37,6 @@ const Heading = ({ section, setSection }) => {
         <div>
             <MobileNav current = {section} setSection = {setSection}/>
             <CoverWrapper id="home">
-                
                 <NavWrap>
                     <VerticalNav color="white" current={section} setSection={setSection} />
                 </NavWrap>

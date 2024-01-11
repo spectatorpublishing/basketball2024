@@ -18,9 +18,8 @@ const Title = styled.div`
     font-size: 6em;
     letter-spacing: 0.05em;
     font-family: 'Baumans' ;
-    color:rgba(0, 0, 0, 0);
-    -webkit-text-stroke: 0.5px #DDFFB2;
-    padding:9vh 0 1vh 0;
+    color:#F69D4D;
+    padding:1vh 0 1vh 0;
     word-wrap:break-word;
 
     @media (max-width: 768px) {
@@ -44,7 +43,7 @@ const Body = styled.div`
 const LetterEditor = () => {
     return (
         <LetterWrap>
-            
+            <SocialSpec/>
             <Title>LETTER FROM THE EDITOR</Title>
             <Body>
                 <p>Dear readers, </p>
@@ -56,12 +55,10 @@ const LetterEditor = () => {
 
 Thank you for reading!
 
-
-                <hr></hr>
                 <p>Jorge Hernandez, Sports Editor</p>
             </Body>
 
-            <SocialSpec/>
+            
          
             </LetterWrap>
     );

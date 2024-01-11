@@ -15,10 +15,10 @@ const Container = styled.div`
     height: 70rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    background-color: #3B4448;
-    color: #DEFFB4;
+    background-color: #01304C;
+    color: #F69D4D;
     border-style: solid;
-    border-color: #DEFFB4;
+    border-color: #F69D4D;
     @media only screen and (max-width: 1216px){
         font-size: 2.1rem;
     }

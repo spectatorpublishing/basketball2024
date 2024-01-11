@@ -18,7 +18,7 @@ const NavWrap = styled.div`
     left:0;
     flex-wrap: wrap;
     z-index:100;
-    background-color:#DEFFB4;
+    background-color:#F69D4D;
     @media (min-width: 768px) {
        display:none;
     }
@@ -40,7 +40,7 @@ const NavTextSelected = styled.div`
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-right: 0.5rem;
-  background-color: #A3C3D0;
+  background-color: #01304C;
   color: white;
 
   opacity:100%;
@@ -49,7 +49,7 @@ const NavTextSelected = styled.div`
   width: 100%;
 `;
 const Tab = styled.div`
-    background-color:${props => props.current ? "#A3C3D0": "inherit"};
+    background-color:${props => props.current ? "#01304C": "inherit"};
     color:${props => props.current ? "white": "black"};
 `;
 

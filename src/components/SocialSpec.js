@@ -10,7 +10,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useOnClickOutside } from "../scripts/useOnClickOutside";
 
 const StyledShareButton = styled.button`
-  background-color: #DDFFB2;
+  background-color: #A4EAEA;
   color: black;
   border-radius: 1.5rem;
   border: 0;
@@ -22,6 +22,7 @@ const StyledShareButton = styled.button`
   font-family: "Merriweather" "Bitter";
   transform: translateX(0);
   transition: 300ms ease-in-out;
+  margin-top: 3em;
   @media (max-width: 768px) {
     margin-left: 40%;
 

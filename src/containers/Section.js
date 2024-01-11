@@ -6,7 +6,7 @@ import SmallArticle from "../components/SmallArticle";
 import Heading from "./Heading";
 
 const SectionWrap1 = styled.div`
-  background: #A3C3D0;
+  background: #01304C;
   padding-left: 9%;
   padding-right: 9%;
   @media (max-width: 500px) {
@@ -35,7 +35,7 @@ const GenderColumn = styled.div`
 `;
 const GenderWrap = styled.div`
   display: flex;
-  background-color:  #A3C3D0;
+  background-color: #01304C;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 5vw;
@@ -49,7 +49,7 @@ const GenderWrap = styled.div`
 `;
 
 const Filter = styled.div`
-  
+
   text-transform: uppercase;
   font-weight: bold;
   padding: 1vh 5vh 1vh 0vh;
@@ -73,15 +73,15 @@ const Filter = styled.div`
   }
   :hover {
     color: black;
-    background-color:#DEFFB4; 
+    background-color:#F69D4D; 
     cursor: pointer;
   }
 `;
 
 const Women = styled.div`
-  color: ${(props) => (props.section === "womens" ? "black" : "white")};
+  color: "black";
   background-color: ${(props) =>
-    props.section === "womens" ? "#DEFFB4" : "#88A9B7"};
+    props.section === "womens" ? "#F69D4D" : "#5574C4"};
   border-radius: 14px;
   width:50vh;
   margin-left: 8%;
@@ -99,9 +99,9 @@ const Women = styled.div`
 `;
 
 const Men = styled.div`
-  color: ${(props) => (props.section === "mens" ? "black" : "white")};
+  color: "black";
   background-color: ${(props) =>
-    props.section === "mens" ? "#DEFFB4" : "#88A9B7"};
+    props.section === "mens" ? "#F69D4D" : "#5574C4"};
   font-size: 20px;
   width:50vh;
   margin-top: 5px;

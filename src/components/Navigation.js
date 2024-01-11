@@ -12,7 +12,7 @@ const NavWrap = styled.div`
     background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CBMHUPQ56ZGDXDVOJIRGAUBMWQ.jpg) #6B6BA2;
     background-size: cover;
     margin-bottom: 5vh;
-    background-position: 30% 80%;
+    background-position: 30% 40%;
     @media (max-width: 768px) {
         height:25vh;
     }
@@ -38,6 +38,7 @@ const TextWrap = styled.a`
     text-align:center;
     text-decoration:none;
     transition-duration:1s;
+    background-color: rgb(0,0,0,0.75);
     :hover {
         background-color:white;
         color:black;
