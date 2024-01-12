@@ -36,23 +36,21 @@ const GenderColumn = styled.div`
 const GenderWrap = styled.div`
   display: flex;
   background-color: #01304C;
-  flex-wrap: wrap;
   justify-content: center;
   margin-top: 5vw;
   @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
     margin-top: 7vw;
   }
   
 `;
 
 const Filter = styled.div`
-
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1vh 5vh 1vh 0vh;
+  padding: 1vh 2.5vh 1vh 2.5vh;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 14px;
   @media (max-width: 500px) {
@@ -92,9 +90,8 @@ const Women = styled.div`
     width: 30%;
   }
   @media (max-width: 768px) {
-    width: 50%;
+    width: 35%;
     margin-left: 0;
-
   }
 `;
 
@@ -105,19 +102,14 @@ const Men = styled.div`
   font-size: 20px;
   width:50vh;
   margin-top: 5px;
-  margin-right:4%;
   text-align: center;
   border-radius: 14px;
   @media(max-width:1090px){
     width: 30%;
-    margin-top: 5%;
   }
   @media (max-width: 768px) {
-    width: 60%;
-    margin-top:5%;
-    margin-bottom: 5%;
+    width: 35%;
     margin-right: 0;
-    
   }
 `;
 

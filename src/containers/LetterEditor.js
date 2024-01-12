@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import '../index.css';
 import SocialSpec from '../components/SocialSpec';
+
 const LetterWrap = styled.div`
     padding-bottom:5vh;
     
@@ -13,7 +14,6 @@ const LetterWrap = styled.div`
 `;
 
 const Title = styled.div`
-    font-weight: bold;
     font-size: 5em;
     letter-spacing: 0.05em;
     font-family: 'Graduate', serif;

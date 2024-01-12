@@ -23,11 +23,6 @@ const StyledShareButton = styled.button`
   transform: translateX(0);
   transition: 300ms ease-in-out;
   margin-top: 3em;
-  @media (max-width: 768px) {
-    margin-left: 40%;
-
-  }
-  
 `;
 
 const ShareCircle = styled.div`
