@@ -58,7 +58,7 @@ const Logo = styled.div`
     position:relative;
     left:3%;
 `;
-const MobileNavBar = ({ current, setSection }) => {
+const MobileNavBar = ({ current }) => {
     const [open, setOpen] = React.useState(false);
     const [sec, setSec] = React.useState(current);
     function handleClick() {
@@ -66,7 +66,6 @@ const MobileNavBar = ({ current, setSection }) => {
     }
     console.log("m" , current);
     return (
-
         <NavWrap>
             <Logo>
                 <a href="https://www.columbiaspectator.com/" style={{
@@ -102,7 +101,6 @@ const MobileNavBar = ({ current, setSection }) => {
                     <Tab current={current === "all"}onClick={() => {
                                                 const m = "all"
                                                 setSec(m)
-                                                setSection("all")
                                                 }}>
                             {sec !== null ? <NavTextSelected>
                             ARTICLES

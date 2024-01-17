@@ -5,6 +5,7 @@ import CreditsSec from './Credits';
 import LetterSec from './LetterEditor';
 import NavigationSec from '../components/Navigation';
 import Heading from './Heading';
+import MobileNav from '../components/MobileNav';
   
 const Wrapper1 = styled.div`
     padding-left:7%;
@@ -30,6 +31,7 @@ const Wrapper = styled.div`
 const Home = () => {
     return (
         <Wrapper>
+        <MobileNav current = {"home"} />
         <Heading/>
         <Wrapper1>     
             <LetterSec />

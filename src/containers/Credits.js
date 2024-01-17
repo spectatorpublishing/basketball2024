@@ -12,7 +12,7 @@ const Container = styled.div`
     font-weight: 900;
     font-size: 3em;
     margin-bottom: 3rem;
-    height: 70rem;
+    height: 80rem;
     padding-left: 3rem;
     padding-right: 3rem;
     background-color: #01304C;
@@ -85,7 +85,7 @@ const SectAndNames = styled.div`
     padding-bottom: 50%;
     align-content:space-around;
     width: 70%;
-    height: 60%;
+    height: 75%;
     @media only screen and (max-width: 768px){
         margin-left: 1rem;
         display: block;
@@ -98,7 +98,7 @@ const SectAndNames = styled.div`
 `;
 
 const Section = styled.div`
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
     width: 22rem;
     height: fit-content;

@@ -4,6 +4,7 @@ import NavigationSec from "../components/Navigation";
 import "../index.css";
 import SmallArticle from "../components/SmallArticle";
 import Heading from "./Heading";
+import MobileNav from '../components/MobileNav';
 
 const SectionWrap1 = styled.div`
   background: #01304C;
@@ -140,7 +141,8 @@ const Section = ({ id, mendata, womendata, color }) => {
 
   return (
     <div>
-      <Heading section = {section} setSection={setSection} />
+      <MobileNav current = {"all"} />
+      <Heading/>
       <GenderWrap id="section1">
         <Men section={section}>
           {" "}
