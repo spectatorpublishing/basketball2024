@@ -93,15 +93,9 @@ const ArticleBox = ({ article }) => {
     return (
         <ArticleWrap>
             <Link href={article.article_link} target="_blank" rel="noreferrer">
-                {article.article_title != "Kitty and Fliss Henderson: Sisters and ballers" ?
-                    <ImageWrap>
-                        <ArticleImg src={article.image_url} />
-                    </ImageWrap>
-                :
-                    <ImageWrap>
-                        <ArticleImg styling={{objectposition: '250px 125px'}} src={article.image_url} />
-                    </ImageWrap>
-                }
+                <ImageWrap>
+                    <ArticleImg src={article.image_url} />
+                </ImageWrap>
                 <ArticleText>
                     <Title>{article.article_title}</Title>
                     <Author>{article.article_authors}</Author>
