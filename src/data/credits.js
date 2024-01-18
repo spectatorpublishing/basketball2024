@@ -151,27 +151,43 @@ export const credits = {
       "title": "Deputy Copy Editor"
     },
     {
-      "staff_name": "Emma",
+      "staff_name": "Emma Moralez",
       "title": "Associate Copy Editor"
     },
     {
-      "staff_name": "Claudia",
+      "staff_name": "Claudia Kim",
       "title": "Associate Copy Editor"
     },
     {
-      "staff_name": "Campbell",
+      "staff_name": "Daniel Knorek",
+      "title": "Associate Copy Editor"
+    },
+    {
+      "staff_name": "Rose Leveen",
+      "title": "Associate Copy Editor"
+    },
+    {
+      "staff_name": "Campbell Beaver",
       "title": "Preslotter"
     },
     {
-      "staff_name": "Maria",
+      "staff_name": "Maria Levit",
       "title": "Preslotter"
     },
     {
-      "staff_name": "Mia",
+      "staff_name": "Mia Feizbakhsh",
       "title": "Preslotter"
     },
     {
-      "staff_name": "Eric",
+      "staff_name": "Eric Aguilar",
+      "title": "Preslotter"
+    },
+    {
+      "staff_name": "Diego Carvajal Núñez",
+      "title": "Preslotter"
+    },
+    {
+      "staff_name": "Reese Ransweiler",
       "title": "Preslotter"
     }
   ],
