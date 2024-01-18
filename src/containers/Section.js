@@ -80,6 +80,24 @@ const Women = styled.div`
   color: "black";
   background-color: ${(props) =>
     props.section === "womens" ? "#F69D4D" : "#5574C4"};
+  font-size: 20px;
+  width:50vh;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 14px;
+  @media(max-width:1090px){
+    width: 30%;
+  }
+  @media (max-width: 768px) {
+    width: 35%;
+    margin-right: 0;
+  }
+`;
+
+const Men = styled.div`
+  color: "black";
+  background-color: ${(props) =>
+    props.section === "mens" ? "#F69D4D" : "#5574C4"};
   border-radius: 14px;
   width:50vh;
   margin-left: 8%;
@@ -92,24 +110,6 @@ const Women = styled.div`
   @media (max-width: 768px) {
     width: 35%;
     margin-left: 0;
-  }
-`;
-
-const Men = styled.div`
-  color: "black";
-  background-color: ${(props) =>
-    props.section === "mens" ? "#F69D4D" : "#5574C4"};
-  font-size: 20px;
-  width:50vh;
-  margin-top: 5px;
-  text-align: center;
-  border-radius: 14px;
-  @media(max-width:1090px){
-    width: 30%;
-  }
-  @media (max-width: 768px) {
-    width: 35%;
-    margin-right: 0;
   }
 `;
 
@@ -143,16 +143,16 @@ const Section = ({ id, mendata, womendata, color, sportsdata}) => {
       <MobileNav current = {"all"} />
       <Heading/>
       <GenderWrap id="section1">
-        <Men section={section}>
-          {" "}
-          <Filter onClick={() => section != "mens" ? setSection("mens") : setSection("all")}>Men's Basketball</Filter>
-        </Men>
         <Women section={section}>
           {" "}
           <Filter onClick={() => section != "womens" ? setSection("womens") : setSection("all")}>
             Women's Basketball
           </Filter>
         </Women>
+        <Men section={section}>
+          {" "}
+          <Filter onClick={() => section != "mens" ? setSection("mens") : setSection("all")}>Men's Basketball</Filter>
+        </Men>
       </GenderWrap>
 
       <SectionWrap1 id={id} color={color}>

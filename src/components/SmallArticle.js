@@ -77,14 +77,14 @@ const Title = styled.p`
     font-size: 1.25rem;
 
     @media (max-width: 500px) {
-        font-size:0.75rem;
+        font-size:1rem;
         width:70%;
     }
 `;
 
 const Author = styled.p`
   @media (max-width: 500px) {
-        font-size:0.5rem;
+        font-size:0.8rem;
         width:70%;
     }
 `;
