@@ -70,7 +70,6 @@ const NavigationSec = ({ first, next, link }) => {
             <TextWrap>
                 <Link style={{ color:"inherit", textDecoration: 'none' }} to={link}>
                     <Title>{first === true ? "Begin Reading" : "Continue"}</Title>
-
                     <Next>{first === true?"Next: " :"Back to: "}{next}</Next>
                 </Link>
             </TextWrap>

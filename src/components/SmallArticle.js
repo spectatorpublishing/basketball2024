@@ -39,8 +39,7 @@ const ArticleImg = styled.img`
     }
     object-fit: cover;
     display:block;
-
-    
+    object-Position: 0px 0px;
 `;
 
 const ImageWrap = styled.div`
@@ -94,9 +93,15 @@ const ArticleBox = ({ article }) => {
     return (
         <ArticleWrap>
             <Link href={article.article_link} target="_blank" rel="noreferrer">
-                <ImageWrap>
-                    <ArticleImg src={article.image_url} />
-                </ImageWrap>
+                {article.article_title != "Kitty and Fliss Henderson: Sisters and ballers" ?
+                    <ImageWrap>
+                        <ArticleImg src={article.image_url} />
+                    </ImageWrap>
+                :
+                    <ImageWrap>
+                        <ArticleImg styling={{objectposition: '250px 125px'}} src={article.image_url} />
+                    </ImageWrap>
+                }
                 <ArticleText>
                     <Title>{article.article_title}</Title>
                     <Author>{article.article_authors}</Author>
