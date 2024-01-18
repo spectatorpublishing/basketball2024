@@ -6,6 +6,7 @@ import Section from './containers/Section';
 import ScrollToTop from './components/ScrollToTop'
 import { mendata } from './data/mendata';
 import { womendata } from './data/womendata';
+import { sportsdata } from './data/sports_articles';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <ScrollToTop />
       <Switch>
         <Route exact path='/' component={Home}/>
-        <Route exact path='/all' render={() => <Section current="all" id="all" header="ALL BASKETBALL" mendata={mendata} womendata={womendata} />} />
+        <Route exact path='/all' render={() => <Section current="all" id="all" header="ALL BASKETBALL" mendata={mendata} womendata={womendata} sportsdata={sportsdata}/>} />
       </Switch>
     </Router>
   );

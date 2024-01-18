@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 
 const CoverWrapper = styled.div`
-    background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CBMHUPQ56ZGDXDVOJIRGAUBMWQ.jpg) #6B6BA2;
+    background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/67TKSDXV3FE6TKZTS4KBVD7WNI.png) #6B6BA2;
     background-size: cover;
     background-position: top;
     width:100%;
-    height: 110vh;
+    height: 100vh;
     
     @media (max-width: 500px) {
         width:100%;
@@ -42,7 +42,6 @@ const Heading = () => {
     return (
         <div>
             <CoverWrapper id="home">
-                <Title>Basketball Title Edition</Title>
             </CoverWrapper>
         </div>
     );

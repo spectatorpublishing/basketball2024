@@ -114,7 +114,7 @@ const Men = styled.div`
   }
 `;
 
-const Section = ({ id, mendata, womendata, color }) => {
+const Section = ({ id, mendata, womendata, color, sportsdata}) => {
   
   const [dimensions, setDimensions] = React.useState({
     height: window.innerHeight,
@@ -146,11 +146,11 @@ const Section = ({ id, mendata, womendata, color }) => {
       <GenderWrap id="section1">
         <Men section={section}>
           {" "}
-          <Filter onClick={() => setSection("mens")}>Men's Basketball</Filter>
+          <Filter onClick={() => section != "mens" ? setSection("mens") : setSection("all")}>Men's Basketball</Filter>
         </Men>
         <Women section={section}>
           {" "}
-          <Filter onClick={() => setSection("womens")}>
+          <Filter onClick={() => section != "womens" ? setSection("womens") : setSection("all")}>
             Women's Basketball
           </Filter>
         </Women>
@@ -177,18 +177,12 @@ const Section = ({ id, mendata, womendata, color }) => {
 
         {section === "all" && (
           <ArticlesWrap>
-            <GenderColumn>
+            <TwoColumn>
               {" "}
-              {mendata.map((article) => {
+              {sportsdata.map((article) => {
                 return <SmallArticle article={article} />;
               })}{" "}
-            </GenderColumn>
-            <GenderColumn>
-              {" "}
-              {womendata.map((article) => {
-                return <SmallArticle article={article}/>;
-              })}{" "}
-            </GenderColumn>
+            </TwoColumn>
           </ArticlesWrap>
         )}
         <NavigationSec first={false} next="Home" link="/" />

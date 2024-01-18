@@ -9,10 +9,10 @@ const NavWrap = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CBMHUPQ56ZGDXDVOJIRGAUBMWQ.jpg) #6B6BA2;
+    background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/67TKSDXV3FE6TKZTS4KBVD7WNI.png) #6B6BA2;
     background-size: cover;
     margin-bottom: 5vh;
-    background-position: 30% 40%;
+    background-position: 30% 35%;
     @media (max-width: 768px) {
         height:25vh;
     }

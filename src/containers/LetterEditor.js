@@ -45,15 +45,15 @@ const LetterEditor = () => {
             <Title>LETTER FROM THE EDITOR</Title>
             <Body>
                 <p>Dear readers, </p>
-                <p>Last year, after almost two years of no competitions, Ivy League basketball returned. Following initially-limited attendance, Levien Gymnasium eventually welcomed back crowds of fans to cheer for the Lions as conference play picked up. 
-                 In the previous season, the women’s team saw its most successful season to date, while the men’s team limped into last place in the Ivy League. While the teams’ seasons tell opposite tales, one thing is certain: Columbia basketball is back. </p>
-                <p>In this special edition, our staff is thrilled to bring you a variety of stories, from a look at how three-pointers are changing league dynamics to a spotlight on how a first-year on the men’s basketball team hopes to change team culture. Between 
-                women’s basketball setting its sights on the Ivy League Championship and a March Madness bid and men’s basketball hoping to bounce back after two consecutive 1-13 Ivy League seasons, these are the storylines that shine light on the state of basketball 
-                at Columbia.</p>
+                <p>This year’s special edition comes at an exciting time for the Columbia basketball program. After making history last season, the reigning Ivy League women’s basketball champions have roared into conference play, currently riding a 10-game win streak. 
+                The men’s program, which has struggled with a shoddy record for the past few seasons, has had its best campaign of non-conference play since 2015 this season. While the road ahead will be challenging for both teams, there is no better time to follow 
+                Columbia Lions basketball.</p>
+                <p>From a deep dive into the growing popularity of the women’s team to a men’s basketball player’s serendipitous journey to the United States, our staff has put together a lineup of stories that will not only take you closer to the court, but will also 
+                help you understand the playing field that the Light Blue is facing. Whether you’re new to the crowd at Levien Gymnasium or a seasoned spectator, this edition has something for everyone.</p>
 
-Thank you for reading!
+Happy Reading!
 
-                <p>Jorge Hernandez, Sports Editor</p>
+                <p>Heather Chen, sports editor</p>
             </Body>
 
             
