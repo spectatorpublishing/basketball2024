@@ -64,7 +64,6 @@ const Filter = styled.div`
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: #0102c1;
       transform-origin: 100% 0;
       transform: skew(-10deg);
       z-index: -1;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 const CoverWrapper = styled.div`
-    background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/67TKSDXV3FE6TKZTS4KBVD7WNI.png) #6B6BA2;
+    background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/67TKSDXV3FE6TKZTS4KBVD7WNI.png) #01304C;
     background-size: cover;
     background-position: top;
     width:100%;
@@ -15,7 +15,7 @@ const CoverWrapper = styled.div`
     }
 
     @media (max-width: 768px) {
-        height:35vh;
+        height:25vh;
         position: relative;
     }
 `;
