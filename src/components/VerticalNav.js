@@ -9,6 +9,9 @@ const VertNav = styled.div`
   top: 3vh;
   font-weight: 700;
   z-index: 100;
+  @media (max-width: 768px) {
+       display:none;
+    }
 `;
 
 const Links = styled.div`
