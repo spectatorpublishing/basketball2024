@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import VerticalNav from '../components/VerticalNav';
 
 const CoverWrapper = styled.div`
     background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/67TKSDXV3FE6TKZTS4KBVD7WNI.png) #01304C;
@@ -37,11 +37,13 @@ const Title = styled.div`
     }
     `;
 
-
 const Heading = () => {
     return (
         <div>
             <CoverWrapper id="home">
+                <div>
+                    <VerticalNav color="white" />
+                </div>
             </CoverWrapper>
         </div>
     );
